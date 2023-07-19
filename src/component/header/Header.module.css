@@ -1,0 +1,16 @@
+.header_box {
+    border: 1px solid;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding: 0 10%;
+    background: black;
+}
+@media (max-width: 500px) {
+    .header_box{
+        height: 120px;
+        text-align: center;
+    }
+}

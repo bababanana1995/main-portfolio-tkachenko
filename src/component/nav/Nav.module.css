@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d5d5d5;
+}
+.navlink:active{
+    color: #953d3d;
+}
+@media (max-width: 500px) {
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+}
+

@@ -1,0 +1,51 @@
+.container{
+    min-height: 100vh;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillsBox{
+    min-width: 80%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid white;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 300px;
+    height: 330px;
+    background: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.nameSkill{
+    font-size: 30px;
+}
+.headerText{
+font-size: 30px;
+    color: white;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+@media (max-width: 935px) {
+    .container{
+        height: 140vh;
+    }
+.skills{
+    justify-content: space-around;
+}
+}
